@@ -36,7 +36,7 @@ class ERB
     end
 
     alias r redcloth_escape
-    module_function :f # this voodoo makes the method available to instances of ERB as a private method
+    module_function :r # this voodoo makes the method available to instances of ERB as a private method
     module_function :redcloth_escape # ditto for the textile method
   end
 end
